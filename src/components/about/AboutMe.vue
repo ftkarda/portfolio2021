@@ -75,7 +75,7 @@
 
               <div class="order-1  w-5/12 px-1 py-4">
                 
-                <p class="mb-3 font-bold  text-lg md:text-2xl text-left">Work Experience</p>
+                <p class="md:mb-3 mb-7 font-bold text-lg md:text-2xl text-left">Work Experience</p>
                 
               </div>
             </div>

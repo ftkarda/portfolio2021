@@ -1,5 +1,5 @@
 <template>
-	<nav id="nav" class="container mx-auto">
+	<nav id="nav" class="container mx-auto ">
 		<div class="z-10 max-w-screen-lg xl:max-w-screen-xl block sm:flex sm:justify-between sm:items-center my-6 animate-fade-in-down">
 			<div class="flex justify-between items-center">
 				<div class="flex items-center">
@@ -32,7 +32,7 @@
 				</div>
 			</div>
 
-			<div :class="isOpen ? 'block' : 'hidden'" class="ml-3 sm:ml-3 mt-5 sm:mt-3 sm:flex justify-center items-center space-y-5 sm:space-y-5 md:space-y-0 lg:space-y-0">
+			<div :class="isOpen ? 'block' : 'hidden'" class="ml-3 sm:ml-3 mt-5 sm:mt-3 sm:flex justify-center items-center space-y-3 sm:space-y-3 md:space-y-0 lg:space-y-0">
 				<router-link
 					to="/about"
 					class="block text-center md:text-left text-lg font-medium pb-3 "
@@ -47,14 +47,14 @@
 					>Contact</router-link>
 
 				<a href="https://api.whatsapp.com/send?phone=+6285346741110&text=Hi ardha" class="flex justify-center items-center pb-5">
-					<button class="md:hidden flex text-md font-medium bg-indigo-500 hover:bg-indigo-600 text-white shadow-sm rounded-lg px-5 py-2.5">Whatsapp
+					<button class="md:hidden flex text-md font-medium bg-green-500 hover:bg-indigo-600 text-white shadow-sm rounded-lg px-5 py-2.5">WhatsApp
 					</button>
 				</a>
 				
 			</div>
 			<div class="hidden sm:flex justify-between items-center flex-col md:flex-row">
 				<div> <a href="https://api.whatsapp.com/send?phone=+6285346741110&text=Hi ardha">
-					<button class="text-md font-medium bg-indigo-500 hover:bg-indigo-600 text-white shadow-sm rounded-lg px-5 py-2.5">Whatsapp
+					<button class="text-md font-medium bg-green-500 hover:bg-indigo-600 text-white shadow-sm rounded-lg px-5 py-2.5">WhatsApp
 					</button>
 					</a>
 				</div>
