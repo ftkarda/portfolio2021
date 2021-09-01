@@ -4,7 +4,7 @@
     <div class="mx-auto flex flex-col items-start md:flex-row">
     
       <div class="flex flex-col w-full sticky md:top-36 lg:w-1/3 mt-2 pt-3 sm:pt-0 md:mt-10 px-3 animate-fade-in-down">
-      <img src="../../assets/images/profile.jpg" class="rounded-xl w-96" alt="">
+      <img src="/profile.jpg" class="rounded-xl w-96" alt="">
         <p class="text-indigo-500 tracking-loose font-bold text-2xl text-center pt-3">Ardha Fatika, S.Kom.</p>
         <p class="text-xl leading-normal md:leading-relaxed mb-2 text-center ">Front End Developer & Web Design</p>
         <p class="text-sm text-ternary-dark mb-4 text-left">

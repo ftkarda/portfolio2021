@@ -3,12 +3,12 @@
 	<section
 		class="flex flex-col sm:justify-between items-center sm:flex-row md:mt-12 mt-2 sm:mt-2 pb-5 font-mono"
 	>
-		<div class="w-full sm:w-1/2 text-left pt-5">
+		<div class="w-full sm:w-3/5 text-left pt-5">
 			<h1
 				class="text-3xl animate-bounce  sm:text-5xl text-center sm:text-left font-semibold text-indigo-500 uppercase"
 			>
 				Hi, I Am
-      </h1>
+			</h1>
       <p class="text-2xl sm:text-4xl text-center sm:text-left font-semibold leading-none text-gray-400">
         <span class="typed-text text-purple-500">{{ typeValue }}</span>
         <span class="cursor" :class="{'typing': typeStatus}">&nbsp;</span>
@@ -35,6 +35,20 @@
 		
 		</div>
 	</section>
+	<div class="mb-5 md:my-5">
+		<a href="/CV_ArdhaFatika.pdf" download>
+                <button type="button" class='flex bg-gradient-to-r from-indigo-500 to-pink-400 hover:from-pink-500 hover:to-blue-300 focus:outline-none text-white sm:text-xs text-md md:text-xl uppercase font-bold shadow-lg rounded-full mx-auto p-3'>
+                    <div class="flex sm:flex-cols gap-2">
+                        <div class="col-span-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="md:h-12 md:w-12 h-9 w-9" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 13l-3 3m0 0l-3-3m3 3V8m0 13a9 9 0 110-18 9 9 0 010 18z" />
+                            </svg>
+                        </div>
+                        <div class="col-span-2 flex justify-center items-center">Download CV</div>
+                    </div>    
+                </button>
+		</a>
+    </div>
 	<!-- Banner end -->
 </template>
 
