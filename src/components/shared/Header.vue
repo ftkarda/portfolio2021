@@ -3,8 +3,8 @@
 		<div class="z-10 max-w-screen-lg xl:max-w-screen-xl block sm:flex sm:justify-between sm:items-center my-6 animate-fade-in-down">
 			<div class="flex justify-between items-center">
 				<div class="flex items-center">
-					<i data-feather="home" class="animate-pulse w-10 sm:w-12 h-6 sm:h-6"></i>
-					<router-link to="/" class="flex"> ARDHA FATIKA  </router-link>
+					
+					<router-link to="/" class="flex"><i data-feather="home" class="animate-pulse w-10 sm:w-12 h-6 sm:h-6"></i> ARDHA FATIKA  </router-link>
 				</div>
 
 				<div class="sm:hidden">

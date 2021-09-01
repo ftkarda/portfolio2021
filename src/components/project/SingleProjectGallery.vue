@@ -1,6 +1,6 @@
 <template>
 	<!-- Project gallery start -->
-	<div class="grid grid-cols-1 sm:grid-cols-3 sm:gap-10 mt-12 ">
+	<div class="grid grid-cols-1 sm:grid-cols-3 sm:gap-10 mt-12 animate-fade-in-down">
 		<div class="mb-10 sm:mb-0 transform transition hover:scale-105 duration-700 ease-in-out hover:rotate-6">
 			<img
 				src="../../assets/images/portofolio/klikshop/klikshop1.jpg"

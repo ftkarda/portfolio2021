@@ -1,6 +1,6 @@
 <template>
 	<!-- Project information start -->
-	<div class="block sm:flex gap-0 sm:gap-10 mt-14">
+	<div class="block sm:flex gap-0 sm:gap-10 mt-14 animate-fade-in-down">
 		<div class="w-full sm:w-1/3 text-left">
 			<div class="mb-7">
 				<p
@@ -19,7 +19,7 @@
 					</li>
 					<li class="text-ternary-dark dark:text-ternary-light">
 						<span>Website: </span>
-						<a href="https://klikshop.co.id/">https://klikshop.co.id</a>
+						<a href="https://klikshop.co.id/" class=" hover:text-indigo-500">https://klikshop.co.id</a>
 					</li>
 				</ul>
 			</div>
@@ -52,7 +52,7 @@
 				Challenge
 			</p>
 			<p class="mb-5 text-lg text-ternary-dark dark:text-ternary-light">
-				Collaboration with backend, Design and Create Theme Layout for klikshop, 
+				Collaboration with backend using laravel, design and create few theme layout for klikshop, 
 			</p>
 			
 		</div>

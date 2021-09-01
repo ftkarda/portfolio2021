@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div class=" animate-fade-in-down">
 		<!-- Project heading and meta info start -->
 		<p
 			class="text-left text-3xl sm:text-4xl font-bold text-primary-dark dark:text-primary-light mt-7 sm:mt-20 mb-7"
