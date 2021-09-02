@@ -36,7 +36,7 @@
 		</div>
 	</section>
 	<div class="mb-5 md:my-5">
-		<a href="/CV_ArdhaFatika.pdf" download>
+		<a href="/CV_Ardha_Fatika.pdf" download>
                 <button type="button" class='flex bg-gradient-to-r from-indigo-500 to-pink-400 hover:from-pink-500 hover:to-blue-300 focus:outline-none text-white sm:text-xs text-md md:text-xl uppercase font-bold shadow-lg rounded-full mx-auto p-3'>
                     <div class="flex sm:flex-cols gap-2">
                         <div class="col-span-1">
